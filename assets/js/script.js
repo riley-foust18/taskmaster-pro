@@ -225,10 +225,10 @@ $("#trash").droppable({
     ui.draggable.remove();
   },
   over: function(event, ui) {
-    
+    console.log("over")
   },
   out: function(event, ui) {
-    
+
   }
 });
 
